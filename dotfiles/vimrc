@@ -1,0 +1,28 @@
+"""Tab Settings"""
+set colorcolumn=80 "Insert a vertical red line at the 80 char mark. 
+set softtabstop=4 "set the delete key to delete 4 when deleting an indent. 
+set shiftwidth=4 "Set the tab key width to 4 spaces. 
+set expandtab "set the tab key to make spaces. 
+
+"""Search Settings"""
+set ignorecase smartcase
+set hlsearch
+
+"""General Settings"""
+set number "Insert line numbers to the left of each line. 
+set formatoptions=tcr
+set mouse=a "Enable mouse support. 
+set noerrorbells
+
+""" Clipboard Settings"""
+set clipboard=unnamedplus "Set default clipboard to be "+
+set clipboard+=unnamed 
+
+" This function inserts the current date when called as follows: ' [date]'
+" Note the leading space. It uses but should not alter the @@ register. 
+function Date()
+    let b:temp = @@ 
+    let @@ = strftime('%m/%d/%y')
+    normal! p
+    let @@ = b:temp
+endfunction
