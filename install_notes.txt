@@ -1,0 +1,3 @@
+zotero - installed to .zotero/install 
+technic - installed to .technic
+

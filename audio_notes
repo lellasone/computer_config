@@ -1,0 +1,3 @@
+pin configuration as noted in the screenshot. Getting bluetooth working
+required installing a pulse-audio component relating to bluetooth. 
+Used hdajackretask to set up the audio.
