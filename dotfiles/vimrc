@@ -18,6 +18,10 @@ set noerrorbells
 set clipboard=unnamedplus "Set default clipboard to be "+
 set clipboard+=unnamed 
 
+""" Spellcheck Settings"""
+set spelllang=en
+set spellfile=$HOME/dropbox/projects/computer_config/configs/en.utf-8.add
+set spell
 " This function inserts the current date when called as follows: ' [date]'
 " Note the leading space. It uses but should not alter the @@ register. 
 function Date()
