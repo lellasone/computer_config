@@ -7,6 +7,8 @@
 # Jake's Custom Bits
 alias zotero='./.zotero/install/zotero'source   
 alias hi="echo hello"
+alias Emma="echo The best person in the world"
+alias emma="Emma"
 
 # switch capslock and escape for vim purposes. 
 /usr/bin/setxkbmap -option "caps:swapescape"
