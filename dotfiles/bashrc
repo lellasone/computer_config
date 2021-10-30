@@ -6,7 +6,7 @@
 
 # Jake's Custom Bits
 alias zotero='./.zotero/install/zotero'source   
-
+alias hi="echo hello"
 
 # switch capslock and escape for vim purposes. 
 /usr/bin/setxkbmap -option "caps:swapescape"
@@ -14,9 +14,11 @@ alias zotero='./.zotero/install/zotero'source
 
 
 # function to activate realsese as a webcam that zoom can see. It takes as 
-# it's argument the camera number of the realsense's rgb feed.
+# it's first argument the camera number of the realsense's rgb feed.
+# it's second argument is the video number of the loopback virtual device.
 function realsense_zoom () {
-msg = ${1:-video6} 
-sudo modprobe v4l2loopback
-ffmpeg -hide_banner -f v4l2 -i /dev/video6 -vf format=yuv420p -f v4l2 /dev/${msg}
+local target=${2:-'video16'} 
+local source=${1:-'video6'} 
+sudo modprobe v4l2loopback video_nr=16
+ffmpeg -hide_banner -f v4l2 -i /dev/${source} -vf format=yuv420p -f v4l2 /dev/${target}
 }

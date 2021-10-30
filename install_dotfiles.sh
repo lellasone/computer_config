@@ -18,7 +18,6 @@ echo "" >> /.bashrc
 echo "# Include jake's custom .bashrc improvements" >> ~/.bashrc
 echo "if [ -f $DOTFILES_DIR/bashrc ]; then" >> ~/.bashrc
 echo "  . $DOTFILES_DIR/bashrc" >> ~/.bashrc
-echo "  echo \"Customization Loaded\"" >> ~/.bashrc
 echo "fi" >> ~/.bashrc
 
 
