@@ -24,3 +24,7 @@ local source=${1:-'video6'}
 sudo modprobe v4l2loopback video_nr=16
 ffmpeg -hide_banner -f v4l2 -i /dev/${source} -vf format=yuv420p -f v4l2 /dev/${target}
 }
+
+# Support for my PDF converter software. I use this for converting academic
+# papers to a format that can be easily read by a kindle. 
+alias papertokindle='/home/jake/Dropbox/projects/computer_config/executables/k2pdfopt'

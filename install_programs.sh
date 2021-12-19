@@ -17,6 +17,7 @@ sudo apt install v4l-utils
 sudo apt install spacenavd
 sudo apt install simplescreenrecorder
 sudo apt install inkscape
+sudo apt install texworks
 
 wget https://zoom.us/client/latest/zoom_amd64.deb -P temp
 sudo apt install ./temp/zoom_amd64.deb
