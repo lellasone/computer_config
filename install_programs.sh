@@ -30,6 +30,11 @@ sudo apt install zotero
 wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf - --directory temp
 ./temp/.dropbox-dist/dropboxd
 
+
+pip3 installs dpt-rp1-py #  Installs dptrp1 and dptmount used for 
+                         # controlling the fujitsu quaderno A4 e-reader.
+
+
 # Install Project / Fabrication Tools. 
 . install_arduino.sh
 sudo apt install cura
