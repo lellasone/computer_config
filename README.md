@@ -6,3 +6,20 @@ For the most part the scripts will download everything they need automatically.
 The only exception right now is the Arduino install script which assumes my
 dropbox folder exists. If you replace the Arduino install call with a standard
 sudo apt install arduino call it will work fine. 
+
+## New Computer Checklist:
+
+
+### Windows:
+ - Install Firefox
+ - Install Dropbox
+ - Install LibreOffice
+ - Install Start10
+ - Install Teamviewer
+ - Install Solidworks
+ - Install Fusion360/HSMWorks
+
+ 
+### Linux:
+ - Install Dropbox
+ 
