@@ -28,3 +28,11 @@ ffmpeg -hide_banner -f v4l2 -i /dev/${source} -vf format=yuv420p -f v4l2 /dev/${
 # Support for my PDF converter software. I use this for converting academic
 # papers to a format that can be easily read by a kindle. 
 alias papertokindle='/home/jake/Dropbox/projects/computer_config/executables/k2pdfopt'
+
+
+# A utility for cleaning github repos. 
+alias bfg='java -jar /home/jake/Dropbox/projects/computer_config/executables/bfg/bfg-1.14.0.jar'
+
+alias source_noetic='source /opt/ros/noetic/setup.bash'
+
+alias monitors:lab='/home/jake/Dropbox/projects/computer_config/configs/arandr/lab_desk.sh'

@@ -7,3 +7,8 @@ For the most part, this directory is temporary. I aim to have all programs
 downloaded fresh as part of the install script. However, I may use this method
 temporarily, or for older programs whose installers are no longer hosted
 elsewhere. 
+
+
+## Contents:
+* bfg - A program for cleaning github repos.
+* k2pdfopt - A program for manipulating and concatenating pdf files.
