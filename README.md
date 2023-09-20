@@ -13,9 +13,9 @@ The monitor configuration solution is arandr, it generates scripts to configure
 the attached monitors. This allows a separate script to be created for each 
 location the laptop is used. The scripts can be found in "config/arandr" and
 aliases (see following) can be found in the bashrc file. 
-'''
+```
     monitors:lab - the setup for my desk in lab. 
-'''
+```
 
 ## New Computer Checklist:
 
