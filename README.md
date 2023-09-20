@@ -16,3 +16,20 @@ aliases (see following) can be found in the bashrc file.
 '''
     monitors:lab - the setup for my desk in lab. 
 '''
+
+## New Computer Checklist:
+
+
+### Windows:
+ - Install Firefox
+ - Install Dropbox
+ - Install LibreOffice
+ - Install Start10
+ - Install Teamviewer
+ - Install Solidworks
+ - Install Fusion360/HSMWorks
+
+ 
+### Linux:
+ - Install Dropbox
+ 
